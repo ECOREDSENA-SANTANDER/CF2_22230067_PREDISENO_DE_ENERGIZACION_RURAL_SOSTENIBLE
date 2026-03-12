@@ -5,9 +5,34 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 5
-      h1 Tema 5
+      h1 Monitoreo, control y evaluación
+
+    separador
+    #t_1_.titulo-segundo.mb-5
+      h2
 
 
+    separador
+    #t_1_.titulo-segundo.mb-5
+      h2
+
+      
+    separador
+    #t_1_.titulo-segundo.mb-5
+      h2
+
+
+
+
+
+
+
+
+
+
+
+
+      
 </template>
 
 <script>

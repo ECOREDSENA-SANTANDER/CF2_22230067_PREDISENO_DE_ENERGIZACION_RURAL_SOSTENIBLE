@@ -1,30 +1,183 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: float 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 35%
+    right: 20%
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: float 3s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 10%
+    right: 40%
+  &-3
+    position: absolute
+    top: 70%
+    right: 75%
+    animation: float 2.5s ease-in-out infinite alternate
+  &-4
+    position: absolute
+    top: 60%
+    right: 35%
+    animation: float 2.8s ease-in-out infinite alternate
 
-@keyframes float1
+@keyframes float
   0%
     transform: translateY(20px)
   100%
     transform: translateY(0px)
   
+.col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
+  flex: 0 0 auto !important
+  width: 45% !important
+  @media screen and (max-width: $bp-max-md)
+    width: 95% !important
 
-.banner-principal .tarjeta
-  background-position: left 50% !important
 .banner-principal__row .banner-principal__img
-  width: 400px !important  
+  width: 450px !important
+  @media screen and (max-width: $bp-max-xl)
+    width: 400px !important
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
   color: white !important   
 .banner-interno__titulo__icono i
   color: $color-primario
 figcaption
   font-weight: normal
- 
+
+.banner-principal
+  @media (max-width: $bp-max-md)
+    .tarjeta
+      background-image: url('../assets/curso/portada/tablet.png') !important
+      background-repeat: no-repeat 
+      background-size: 100% 100%
+      background-position: cover
+    &__info
+      padding-top: 8% !important 
+      padding-right: 5% !important
+  @media (max-width: 767px) 
+    .tarjeta
+      background-image: url('../assets/curso/portada/movil.png') !important
+      background-repeat: no-repeat 
+      background-size: 100% 100%
+      background-position: cover
+    &__info
+      padding-top: 15% !important 
+      padding-right: 5% !important
+.banner-interno__fondo    
+  background-image: url("../assets/curso/portada/portada.png") !important
+
+.titulo-segundo:after 
+  content: ''
+  display: block
+  height: 4.5px
+  width: 140px
+  border-left: solid 50px
+  border-left-color: #6C4826
+  background-color: #e8e8e8
+
+.titulo-sexto
+  border-left: 10px solid
+  padding: 6px 0 6px 8px
+  border-left-color: #6C4826 !important
+
+.img-t
+  width: auto
+  height: auto 
+.img-a
+  display: block
+  margin: auto
+
+.barra-avance__boton--regresar span 
+  color: $white !important
+
+.cen
+  display: flex
+  justify-content: center
+  align-items: center
+
+/////////////////////////////////INTRO/////////////////////////////////
+
+.bg1
+  background-color: #F0ECE9
+
+.bg2
+  background-color: #D1E5C0
+
+/////////////////////////////////TEMA1/////////////////////////////////
+
+.bloque-texto-g.color-secundario 
+  background-color: #FFDE9A
+
+.bg3
+  background-color: #D1E5C0
+  border-radius: 20px 0px 0px 20px
+
+.bg4
+  background-color: #6C4826
+  border-radius: 20px 0px 0px 20px
+  @media only screen and (max-width: 767px)
+    border-radius: 20px
+.bg5
+  background-color: #FFAC04
+  border-radius: 0px 20px 20px 0px
+  @media only screen and (max-width: 767px)
+    border-radius: 20px
+
+.bg6
+  background-color: #92CFD9
+
+
+.titulo
+  background-color: #F0ECE9
+  border-radius: 10px 
+  width: fit-content
+  padding: 8px 20px 8px 75px
+  position: relative
+  display: inline-flex
+  align-items: center
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
+    padding: 8px 20px 8px 65px
+.titulo img
+  width: 63px
+  height: 63px
+  position: absolute
+  top: 50%
+  left: 0px 
+  transform: translateY(-50%)
+  object-fit: contain
+  z-index: 1
+  @media only screen and (min-width: 768px) and (max-width: 1023px)
+    width: 55px
+    height: 55px
+  @media only screen and (max-width: 767px)
+    width: 55px
+    height: 55px
+
+.color-pr
+  background-color: #F3F9EF
+  border-radius: 20px
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/////////////////////////////////TEMA2/////////////////////////////////
+
+
+/////////////////////////////////TEMA3/////////////////////////////////
+
+
+/////////////////////////////////TEMA4/////////////////////////////////
+
+
+/////////////////////////////////TEMA5/////////////////////////////////

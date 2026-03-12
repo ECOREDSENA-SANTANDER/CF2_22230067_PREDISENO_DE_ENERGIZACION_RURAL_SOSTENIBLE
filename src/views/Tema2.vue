@@ -5,8 +5,24 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Tema 2
+      h1 Viabilidad y sostenibilidad financiera
+  
+    separador
+    #t_2_1.titulo-segundo.mb-5
+      h2 2.1 Fuentes de financiación
 
+
+    separador
+    #t_2_2.titulo-segundo.mb-5
+      h2 2.2 Indicadores de rentabilidad social y económica
+
+      
+
+
+
+
+
+      
 </template>
 
 <script>

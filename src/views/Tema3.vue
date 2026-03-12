@@ -5,7 +5,24 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 Tema 3
+      h1 Gestión social y apropiación comunitaria
+    
+    separador
+    #t_3_1.titulo-segundo.mb-5
+      h2 3.1 Modelos de gestión y sostenibilidad
+
+
+    separador
+    #t_3_2.titulo-segundo.mb-5
+      h2 3.2 Esquemas de recaudo y fondo de reposición:
+
+  
+
+
+
+
+
+
 
 </template>
 
