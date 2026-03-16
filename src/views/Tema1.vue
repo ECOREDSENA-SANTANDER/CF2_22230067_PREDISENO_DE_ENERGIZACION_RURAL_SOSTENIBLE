@@ -87,17 +87,107 @@
     #t_1_1.titulo-segundo.mb-5
       h2 1.1 Regulación en Zonas No Interconectadas (ZNI): El papel de la CREG y el IPSE
     
-    
-    
+    p.mb-5 Dado que la mayoría de los proyectos rurales se ubican en zonas donde no llega la red nacional, es vital entender el rol de estas instituciones:
+
+    .row.justify-content-center.align-items-center.mb-0
+      .col-lg-12
+        .titulo-sexto.mb-4
+          h5 Tabla 1.
+          | Entidades participantes en ZNI
+        .tabla-a.tab1
+          table
+            thead
+              tr
+                th Entidad
+                th Función principal en el proyecto
+            tbody
+              tr.bgr
+                td #[b Ministerio de Minas y Energía (MME)]
+                td Define la política pública y prioriza las zonas a intervenir.
+              tr
+                td #[b CREG (Comisión de Regulación de Energía y Gas)]
+                td Establece las tarifas que se pueden cobrar y las reglas de juego para la prestación del servicio.
+              tr.bgr
+                td #[b IPSE (Instituto de Planificación y Promoción de Soluciones Energéticas)]
+                td Estructura, implementa y hace seguimiento a soluciones energéticas en las ZNI.
+              tr
+                td #[b UPME (Unidad de Planeación Minero Energética)]
+                td Encargada de los planes de expansión y de certificar los proyectos para acceder a beneficios tributarios.
     
     
     separador
     #t_1_2.titulo-segundo.mb-5
       h2 1.2 Estándares técnicos: RETIE y normativas específicas para FNCER
   
+    p.mb-5 No basta con que el proyecto sea legal; debe ser seguro y de alta calidad técnica para evitar fallos prematuros en entornos rurales difíciles.
 
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+      .col-lg-11.offset-lg-0
+        .row.justify-content-center.align-items-end
+          .col-lg-8.ps-lg-0
+            .crd.crd--avatarHorizontal.crd--first.py-4
+              .row.align-items-center
+                .col-auto
+                  figure
+                    img.d-none.d-lg-block(src="@/assets/curso/tema1/9.svg", alt="alt")
+                .col
+                  h4.mb-2 RETIE (Reglamento Técnico de Instalaciones Eléctricas)
+                  p.mb-0 Es de cumplimiento obligatorio en Colombia. Todo prediseño debe asegurar que los materiales y la instalación minimicen riesgos para las personas y el entorno.
+            .crd.crd--avatarHorizontal.py-4
+              .row.align-items-center
+                .col-auto
+                  figure
+                    img.d-none.d-lg-block(src="@/assets/curso/tema1/10.svg", alt="alt")
+                .col
+                  h4.mb-2 RETILAP (Reglamento Técnico de Iluminación y Alumbrado Público)
+                  p.mb-0 Crucial si el proyecto incluye iluminación de espacios comunes o escuelas rurales.
+            .crd.crd--avatarHorizontal.crd--last.py-4
+              .row.align-items-center
+                .col-auto
+                  figure
+                    img.d-none.d-lg-block(src="@/assets/curso/tema1/11.svg", alt="alt")
+                .col
+                  h4.mb-2 Normas NTC / IEC
+                  p.mb-0 Referencias internacionales para la calidad de paneles solares, inversores y baterías (ejemplo: NTC 4564 para sistemas fotovoltaicos).
+          .col-lg-5.sob1.d-none.d-lg-block
+            img.img-t(src="@/assets/curso/tema1/12.svg", alt="alt")
+    
+    p.mb-5 No siempre la energía solar es la mejor opción. El aprendiz debe evaluar la fuente según el recurso disponible:
 
-
+    .row.justify-content-center.align-items-center.mb-0
+      .col-lg-3
+        img.img-t(src="@/assets/curso/tema1/13.png", alt="alt")
+      .col-lg-9
+        SlyderF(columnas="col-md-6 col-xl-4")
+          .tarjeta.tarjeta--slyder.b2.p-2.p-lg-3.p-md-3
+            .row.justify-content-center.align-items-center.mb-4.mt-lg-3
+              .col-12
+                img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema1/14.svg' alt='AvatarTop')
+            .bg7.p-1.mb-4
+              h4.text-center.text-white.mb-0.ps-2.pe-2 Solar fotovoltaica
+            p.mb-2 Ideal para la mayoría de regiones en Colombia (especialmente caribe, orinoquía y zonas andinas). Ventaja: Bajo mantenimiento y escalabilidad.
+          .tarjeta.tarjeta--slyder.b2.p-2.p-lg-3.p-md-3
+            .row.justify-content-center.align-items-center.mb-4.mt-lg-3
+              .col-12
+                img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema1/15.svg' alt='AvatarTop')
+            .bg7.p-1.mb-4
+              h4.text-center.text-white.mb-0.ps-2.pe-2 Eólica de pequeña escala
+            p.mb-2 Recomendada para zonas con velocidades de viento promedio superiores a 5 m/s (ejemplo: la Guajira). Requiere estudios de viento más complejos.
+          .tarjeta.tarjeta--slyder.b2.p-2.p-lg-3.p-md-3
+            .row.justify-content-center.align-items-center.mb-4.mt-lg-3
+              .col-12
+                img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema1/16.svg' alt='AvatarTop')
+            .bg7.p-1.mb-4
+              h4.text-center.text-white.mb-0.ps-2.pe-2 Micro centrales Hidráulicas (PCH) 
+            p.mb-2 Excelente para zonas con ríos caudalosos y pendientes (Andes y Pacífico). Proporcionan energía constante (24/7).
+          .tarjeta.tarjeta--slyder.b2.p-2.p-lg-3.p-md-3
+            .row.justify-content-center.align-items-center.mb-4.mt-lg-3
+              .col-12
+                img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema1/17.svg' alt='AvatarTop')
+            .bg7.p-1.mb-4
+              h4.text-center.text-white.mb-0.ps-2.pe-2 Sistemas híbridos
+            p.mb-2 Combinación de fuentes (ejemplo: solar y generador diésel de respaldo) para garantizar la confiabilidad en centros de salud o escuelas.
+            
       
 </template>
 

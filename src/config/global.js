@@ -104,13 +104,6 @@ export default {
         numero: '5',
         titulo: 'Monitoreo, control y evaluación',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Subtema 1',
-            hash: 't_1_1',
-          },
-        ],
       },
     ],
     subMenu: [
