@@ -26,17 +26,17 @@
             img.mb-3.img-t.d-none.d-lg-block(src='@/assets/curso/tema1/3.svg', alt='')
             p.mb-0(data-aos="fade-left") Colombia ha evolucionado su marco normativo para priorizar las energías limpias, consolidando un enfoque orientado a la diversificación de la matriz energética, la reducción de emisiones y el fomento de la inversión en fuentes renovables no convencionales. En este contexto, los dos pilares fundamentales que el formulador debe conocer son, en primer lugar, el conjunto de incentivos económicos y tributarios que buscan mejorar la viabilidad financiera de los proyectos mediante beneficios fiscales y facilidades para la importación de tecnologías; y, en segundo lugar, el fortalecimiento institucional y regulatorio que promueve la integración eficiente de estas fuentes al sistema energético nacional. Ambos ejes permiten crear un entorno más competitivo y estable, facilitando la estructuración técnica, económica y financiera de iniciativas sostenibles en el largo plazo.
 
-    .row.justify-content-center.align-items-stretch.mb-lg-5.mb-0(data-aos="fade-right") 
+    .row.justify-content-center.align-items-stretch.mb-lg-5.mb-0(data-aos="fade-left")
       .col-lg-5.col-md-6.pe-lg-0.pe-md-0.mb-lg-0.mb-4
         .bg4.p-lg-5.p-4.h-100
           img.img-t.img-a.mb-4(src='@/assets/curso/tema1/3.png')
           h3.mb-4.text-center.text-white Ley 1715 de 2014
-          p.mb-0.text-white es la "ley madre" de las Fuentes No Convencionales de Energía Renovable (FNCER). Establece los incentivos tributarios (exclusión de IVA, exención de aranceles, deducción de renta y depreciación acelerada) para proyectos de autogeneración y generación a pequeña escala.
+          p.mb-0.text-white Es la "ley madre" de las Fuentes No Convencionales de Energía Renovable (FNCER). Establece los incentivos tributarios (exclusión de IVA, exención de aranceles, deducción de renta y depreciación acelerada) para proyectos de autogeneración y generación a pequeña escala.
       .col-lg-5.col-md-6.ps-lg-0.ps-md-0.mb-lg-0.mb-4
         .bg5.p-lg-5.p-4.h-100
           img.img-t.img-a.mb-4(src='@/assets/curso/tema1/4.png')
           h3.mb-4.text-center Ley 2099 de 2021 (Ley de transición energética)
-          p.mb-lg-4 moderniza la anterior, agilizando trámites y extendiendo los beneficios a nuevas tecnologías como el hidrógeno verde y el almacenamiento de energía a gran escala. Fortalece los fondos para la energización rural.
+          p.mb-lg-4 Moderniza la anterior, agilizando trámites y extendiendo los beneficios a nuevas tecnologías como el hidrógeno verde y el almacenamiento de energía a gran escala. Fortalece los fondos para la energización rural.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-4.d-none.d-lg-block
@@ -62,9 +62,9 @@
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 Licenciamiento ambiental y permisos menores
 
-    p.mb-5 No todos los proyectos rurales requieren una licencia ambiental completa (que es costosa y lenta), pero el aprendiz debe saber distinguir:
+    p.mb-5(data-aos="fade-right") No todos los proyectos rurales requieren una licencia ambiental completa (que es costosa y lenta), pero el aprendiz debe saber distinguir:
 
-    .row
+    .row(data-aos="fade-left")
       .col-lg-6.mb-lg-0.mb-4
         .tarjeta-avatar-b.mb-0.h-100
           .tarjeta-avatar-b__img
@@ -87,9 +87,9 @@
     #t_1_1.titulo-segundo.mb-5
       h2 1.1 Regulación en Zonas No Interconectadas (ZNI): El papel de la CREG y el IPSE
     
-    p.mb-5 Dado que la mayoría de los proyectos rurales se ubican en zonas donde no llega la red nacional, es vital entender el rol de estas instituciones:
+    p.mb-5(data-aos="fade-right") Dado que la mayoría de los proyectos rurales se ubican en zonas donde no llega la red nacional, es vital entender el rol de estas instituciones:
 
-    .row.justify-content-center.align-items-center.mb-0
+    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
       .col-lg-12
         .titulo-sexto.mb-4
           h5 Tabla 1.
@@ -119,9 +119,9 @@
     #t_1_2.titulo-segundo.mb-5
       h2 1.2 Estándares técnicos: RETIE y normativas específicas para FNCER
   
-    p.mb-5 No basta con que el proyecto sea legal; debe ser seguro y de alta calidad técnica para evitar fallos prematuros en entornos rurales difíciles.
+    p.mb-5(data-aos="fade-right") No basta con que el proyecto sea legal; debe ser seguro y de alta calidad técnica para evitar fallos prematuros en entornos rurales difíciles.
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-11.offset-lg-0
         .row.justify-content-center.align-items-end
           .col-lg-8.ps-lg-0
@@ -152,10 +152,10 @@
           .col-lg-5.sob1.d-none.d-lg-block
             img.img-t(src="@/assets/curso/tema1/12.svg", alt="alt")
     
-    p.mb-5 No siempre la energía solar es la mejor opción. El aprendiz debe evaluar la fuente según el recurso disponible:
+    p.mb-lg-5.mb-4(data-aos="fade-right") No siempre la energía solar es la mejor opción. El aprendiz debe evaluar la fuente según el recurso disponible:
 
-    .row.justify-content-center.align-items-center.mb-0
-      .col-lg-3
+    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
+      .col-lg-3.d-none.d-lg-block
         img.img-t(src="@/assets/curso/tema1/13.png", alt="alt")
       .col-lg-9
         SlyderF(columnas="col-md-6 col-xl-4")
