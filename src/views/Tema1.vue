@@ -85,7 +85,7 @@
 
     separador
     #t_1_1.titulo-segundo.mb-5
-      h2 1.1 Regulación en Zonas No Interconectadas (ZNI): El papel de la CREG y el IPSE
+      h2 1.1 Regulación en Zonas No Interconectadas (ZNI): el papel de la CREG y el IPSE
     
     p.mb-5(data-aos="fade-right") Dado que la mayoría de los proyectos rurales se ubican en zonas donde no llega la red nacional, es vital entender el rol de estas instituciones:
 
@@ -178,7 +178,7 @@
               .col-12
                 img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema1/16.svg' alt='AvatarTop')
             .bg7.p-1.mb-4
-              h4.text-center.text-white.mb-0.ps-2.pe-2 Micro centrales Hidráulicas (PCH) 
+              h4.text-center.text-white.mb-0.ps-2.pe-2 Micro Centrales Hidráulicas (PCH) 
             p.mb-2 Excelente para zonas con ríos caudalosos y pendientes (Andes y Pacífico). Proporcionan energía constante (24/7).
           .tarjeta.tarjeta--slyder.b2.p-2.p-lg-3.p-md-3
             .row.justify-content-center.align-items-center.mb-4.mt-lg-3

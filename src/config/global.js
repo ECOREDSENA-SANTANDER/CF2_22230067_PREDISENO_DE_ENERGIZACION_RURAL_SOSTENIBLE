@@ -46,7 +46,7 @@ export default {
           {
             numero: '1.1',
             titulo:
-              'Regulación en Zonas No Interconectadas (ZNI): El papel de la CREG y el IPSE',
+              'Regulación en Zonas No Interconectadas (ZNI): el papel de la CREG y el IPSE',
             hash: 't_1_1',
           },
           {
@@ -148,7 +148,7 @@ export default {
   },
   glosario: [
     {
-      termino: 'CAPEX',
+      termino: '<em>CAPEX</em>',
       significado:
         'inversión inicial de capital necesaria para adquirir los activos del proyecto (equipos, transporte y trámites).',
     },
@@ -188,7 +188,7 @@ export default {
         'planificación del retorno de residuos peligrosos (como baterías usadas) al fabricante para su reciclaje.',
     },
     {
-      termino: 'OPEX',
+      termino: '<em>OPEX</em>',
       significado:
         'gastos operativos mensuales o anuales necesarios para el mantenimiento y funcionamiento del proyecto.',
     },
@@ -295,7 +295,7 @@ export default {
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Laura Paola Gelvez Manosalva',
+          nombre: 'Sandra Liliana Cristancho Cruz',
           cargo: 'Evaluadora para contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },

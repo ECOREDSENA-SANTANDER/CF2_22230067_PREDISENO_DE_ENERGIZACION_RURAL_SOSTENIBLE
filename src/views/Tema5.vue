@@ -79,7 +79,7 @@
               ul.lista-ul.mb-0
                 li.d-flex.mb-4
                   i.fas.fa-circle-check
-                  p.mb-0 #[b Sistemas #[em SCADA] o plataformas #[em cloud]:] uso de dataloggers que envían información vía satelital o red celular (GPRS) para ver el estado del sistema desde una ciudad principal.
+                  p.mb-0 #[b Sistemas #[em SCADA] o plataformas #[em cloud]:] uso de #[em dataloggers] que envían información vía satelital o red celular (GPRS) para ver el estado del sistema desde una ciudad principal.
                 li.d-flex.mb-4
                   i.fas.fa-circle-check
                   p.mb-0 #[b Internet de las cosas (#[em IoT]):] sensores que alertan automáticamente si un inversor falla o si una batería alcanza una temperatura peligrosa.

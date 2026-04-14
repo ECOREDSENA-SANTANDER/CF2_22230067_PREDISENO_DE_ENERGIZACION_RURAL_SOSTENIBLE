@@ -31,7 +31,7 @@
             img.img-t.d-none.d-lg-block(src='@/assets/curso/tema2/4.svg', alt='')
           .col-lg-6.ps-lg-0.pe-lg-0.mb-0
             .bg81.p-4
-              p.mb-0.mx-lg-3.mb-lg-1.mt-lg-1 Adicionalmente, se abordan indicadores financieros que facilitan la toma de decisiones, como el valor presente neto, la tasa interna de retorno y el período de recuperación de la inversión, los cuales permiten comparar alternativas tecnológicas y distintos escenarios de operación. También se incorporan análisis de sensibilidad y escenarios prospectivos para evaluar el impacto de variaciones en variables críticas, tales como la demanda energética, los costos de mantenimiento o las tasas de interés. De esta manera, se promueve una planificación financiera rigurosa que contribuya a la sostenibilidad económica del proyecto y a la continuidad del servicio energético en contextos rurales y en las Zonas No Interconectadas.
+              p.mb-0.mx-lg-3.mb-lg-1.mt-lg-1 Adicionalmente, se abordan indicadores financieros que facilitan la toma de decisiones, como el valor presente neto, la tasa interna de retorno y el período de recuperación de la inversión, los cuales permiten comparar alternativas tecnológicas y distintos escenarios de operación. También se incorporan análisis de sensibilidad y escenarios prospectivos para evaluar el impacto de variaciones en variables críticas, tales como la demanda energética, los costos de mantenimiento o las tasas de interés. De esta manera, se promueve una planificación financiera rigurosa que contribuya a la sostenibilidad económica del proyecto y a la continuidad del servicio energético en contextos rurales y en las zonas no interconectadas.
         p.mb-0 En la prefactibilidad, debemos diferenciar claramente estos dos tipos de gastos: 
       .col-lg-3.d-none.d-lg-block
         img(src='@/assets/curso/tema2/5.png', alt='')
@@ -39,7 +39,7 @@
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")
       .col-lg-12
         TabsC.color-primario
-          .bg8.p-lg-5.p-4(titulo="CAPEX <br>(<em>capital expenditure</em> - inversión inicial)")
+          .bg8.p-lg-5.p-4(titulo="<em>CAPEX</em> <br>(<em>Capital Expenditure</em> - inversión inicial)")
             .row.justify-content-center.align-items-center.mb-0
               .col-lg-12
                 ul.lista-ul.mb-4
@@ -90,7 +90,7 @@
                             td 5 %
                             td Retrasos administrativos.
                 p.mb-0 #[b Tip de prefactibilidad:] si el costo de llevar los materiales (logística) supera el 25 % del valor de los equipos, el aprendiz debe evaluar si es mejor una solución alternativa o si el proyecto requiere un subsidio estatal mayor para ser viable.
-          .bg8.p-lg-5.p-4(titulo="<em>OPEX</em> <br>(<em>operational expenditure</em> - gastos operativos)")
+          .bg8.p-lg-5.p-4(titulo="<em>OPEX</em> <br>(<em>Operational Expenditure</em> - gastos operativos)")
             .row.justify-content-center.align-items-center.mb-0
               .col-lg-12
                 ol.lista-ol--cuadro.mb-5
@@ -306,13 +306,13 @@
                   p.mb-0 #[b I#[sub t]:] inversiones realizadas en el año #[em t] (#[em CAPEX]), incluyendo inversión inicial y reposiciones.
                 li.d-flex.mb-0
                   i.fas.fa-circle-check
-                  p.mb-0 #[b M#[sub t]:] costos de operación y mantenimiento en el año t (#[em OPEX]).
+                  p.mb-0 #[b M#[sub t]:] costos de operación y mantenimiento en el año #[em t] (#[em OPEX]).
                 li.d-flex.mb-0
                   i.fas.fa-circle-check
-                  p.mb-0 #[b F#[sub t]:] costos de combustible en el año t (si aplica).
+                  p.mb-0 #[b F#[sub t]:] costos de combustible en el año #[em t] (si aplica).
                 li.d-flex.mb-0
                   i.fas.fa-circle-check
-                  p.mb-0 #[b E#[sub t]:] energía generada en el año t.
+                  p.mb-0 #[b E#[sub t]:] energía generada en el año #[em t].
                 li.d-flex.mb-0
                   i.fas.fa-circle-check
                   p.mb-0 #[b r:] tasa de descuento.

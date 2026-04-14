@@ -38,7 +38,7 @@
               .tarjeta.bg-white.p-4.p-lg-5.h-100
                 TarjetaAudio.color-acento-botones.mb-0(
                 texto="Podcast: Gestión social y apropiación comunitaria."
-                :audio="require('@/assets/actividad/audio/screen-change.mp3')"
+                :audio="require('@/assets/actividad/audio/Podcast_CF2_22230067_Prediseno_de_energizacion_rural_sostenible.mp3')"
             )
                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
 
@@ -273,7 +273,7 @@
                 td Máximo.
               tr.bgw
                 td #[b Costo para el usuario]
-                td Mínimo (solo costos OPEX).
+                td Mínimo (solo costos #[em OPEX]).
                 td Regulado (tarifa CREG).
                 td Variable (según ingresos extra).
 
@@ -305,7 +305,7 @@
       h2 3.2 Esquemas de recaudo y fondo de reposición:
     
     p.mb-4(data-aos="fade-right") El diseño de prefactibilidad debe ser honesto: la energía "gratis" no existe, aunque el sol no pasa factura, los equipos sí se desgastan. El aprendiz debe aprender a estructurar el flujo de dinero comunitario.
-    p.mb-4(data-aos="fade-left") Existen varias formas de recolectar el dinero para el mantenimiento (OPEX), y la elección depende de la cultura local:
+    p.mb-4(data-aos="fade-left") Existen varias formas de recolectar el dinero para el mantenimiento (#[em OPEX]), y la elección depende de la cultura local:
 
     .row.justify-content-center.align-items-stretch.mb-lg-5.mb-4(data-aos="fade-right")
       .col-md-6.col-xl.mb-4.mb-xl-0
