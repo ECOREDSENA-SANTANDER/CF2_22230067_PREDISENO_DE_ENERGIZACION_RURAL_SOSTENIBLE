@@ -46,7 +46,7 @@
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
       h3.mb-0 Estrategias de socialización: cómo involucrar a la comunidad desde la prefactibilidad
 
-    p.mb-5(data-aos="fade-right") La gestión social debe empezar desde la prefactibilidad, no cuando los paneles ya están llegando en la mula.
+    p.mb-5(data-aos="fade-right") La gestión social debe comenzar desde la etapa de prefactibilidad, no cuando los equipos ya están siendo transportados hacia el sitio del proyecto.
 
     .row.justify-content-center.align-items-center.mb-0
       .col-lg-12

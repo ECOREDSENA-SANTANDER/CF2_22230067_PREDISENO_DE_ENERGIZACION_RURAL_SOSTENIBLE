@@ -200,7 +200,7 @@
       .col-lg-12
         .titulo-sexto.mb-4
           h5 Tabla 3.
-          | Resumen para el aprendiz: ¿A qué fondo aplicar?
+          | Fuentes de financiación y requisitos por tipo de proyecto
         .tabla-a.tab3
           table
             thead
