@@ -165,7 +165,7 @@ export default {
     {
       termino: 'FNCER',
       significado:
-        'fuentes No Convencionales de Energía Renovable (solar, eólica, biomasa, pequeña hidro, geotermia).',
+        ' Fuentes No Convencionales de Energía Renovable (solar, eólica, biomasa, pequeña hidro, geotermia).',
     },
     {
       termino: 'HSP (Horas Solares Pico)',
@@ -210,7 +210,7 @@ export default {
     {
       termino: 'ZNI',
       significado:
-        'Zonas No Interconectadas; territorios que no están conectados a la red eléctrica nacional de Colombia.',
+        ' Zonas No Interconectadas; territorios que no están conectados a la red eléctrica nacional de Colombia.',
     },
   ],
   referencias: [
@@ -242,7 +242,7 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo: 'Responsable del ecosistema',
-          centro: 'Dirección General',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Edison Eduardo Mantilla Cuadros',
