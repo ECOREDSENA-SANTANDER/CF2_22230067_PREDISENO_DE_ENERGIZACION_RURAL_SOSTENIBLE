@@ -279,9 +279,9 @@
 
     .titulo.mb-5(data-aos="fade-left")
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
-      h3.mb-0 El operador local: La pieza clave
+      h3.mb-0 El operador local: la pieza clave
 
-    p.mb-5(data-aos="fade-right") Independientemente del modelo, el diseño de prefactibilidad debe contemplar la figura del operador Local.
+    p.mb-5(data-aos="fade-right") Independientemente del modelo, el diseño de prefactibilidad debe contemplar la figura del operador local.
 
     .bg9.p-lg-5.p-4.mb-0(data-aos="fade-left")
       .row.justify-content-center.align-items-center.mb-0

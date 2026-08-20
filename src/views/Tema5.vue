@@ -85,7 +85,7 @@
                   p.mb-0 #[b Internet de las cosas (#[em IoT]):] sensores que alertan automáticamente si un inversor falla o si una batería alcanza una temperatura peligrosa.
                 li.d-flex.mb-0
                   i.fas.fa-circle-check
-                  p.mb-0 #[b Apps para la comunidad:] herramientas simples donde el líder local reporta el estado diario del sistema a través de un smartphone.
+                  p.mb-0 #[b #[em Apps] para la comunidad:] herramientas simples donde el líder local reporta el estado diario del sistema a través de un #[em smartphone].
 
     .titulo.mb-5(data-aos="fade-left")
       img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
