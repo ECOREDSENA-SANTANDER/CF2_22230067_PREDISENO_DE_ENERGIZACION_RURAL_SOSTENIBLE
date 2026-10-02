@@ -9,9 +9,9 @@
     
     .row.justify-content-center.align-items.mb-5(data-aos="fade-left")
       .col-lg-5.d-none.d-lg-block
-        img(src="@/assets/curso/tema2/1.png", alt="alt")
+        img(src="@/assets/curso/tema2/1.png")
       .col-lg-1.d-none.d-lg-block
-        img(src="@/assets/curso/tema2/2.svg", alt="alt")
+        img(src="@/assets/curso/tema2/2.svg")
       .col-lg-6.ps-lg-0
         p.mb-0 El objetivo de este capítulo es que el aprendiz desarrolle la capacidad de cuantificar la inversión requerida y proyectar la salud financiera del proyecto a lo largo de su vida útil (generalmente entre 20 y 25 años). Para ello, se analizan los principales componentes económicos que intervienen en la formulación de un proyecto energético rural, considerando no solo los costos iniciales de implementación, sino también los gastos asociados a la operación, el mantenimiento y la reposición de equipos. Asimismo, se introducen conceptos fundamentales de evaluación financiera que permiten estimar la rentabilidad y la sostenibilidad del proyecto en el tiempo, tales como el análisis de costos, la proyección de flujos de caja y la identificación de riesgos financieros. Esta evaluación resulta esencial para garantizar que la solución energética sea viable, financiable y capaz de mantenerse operativa a largo plazo, especialmente en contextos rurales y en las Zonas No Interconectadas (ZNI).
 
@@ -22,19 +22,19 @@
             .bloque-texto-a__texto.p-lg-5.p-4
               p.mb-0(data-aos="fade-left") En este sentido, se profundiza en la estructuración de un presupuesto detallado del proyecto, incorporando variables como los costos de ingeniería y diseño, adquisición de equipos, transporte, instalación, permisos, interventoría y provisiones para contingencias. De igual manera, se examinan las fuentes de financiación disponibles, tales como recursos públicos, aportes comunitarios, cooperación internacional o esquemas de inversión privada, evaluando sus condiciones, plazos y costos de capital. Esta aproximación integral permite estimar con mayor precisión el monto total de la inversión requerida y definir estrategias financieras acordes con las características del territorio y la capacidad de pago de los usuarios.
           .col-lg-4.col-md-6.mb-0
-            img.enc.img-a(src='@/assets/curso/tema2/3.png', alt='')
+            img.enc.img-a(src='@/assets/curso/tema2/3.png')
 
     .row.justify-content-center.align-items-end.mb-5(data-aos="fade-left")
       .col-lg-9
         .row.mb-4
           .col-lg-6.pe-lg-0.col-md-7.col-10.mb-lg-0.mb-4
-            img.img-t.d-none.d-lg-block(src='@/assets/curso/tema2/4.svg', alt='')
+            img.img-t.d-none.d-lg-block(src='@/assets/curso/tema2/4.svg')
           .col-lg-6.ps-lg-0.pe-lg-0.mb-0
             .bg81.p-4
               p.mb-0.mx-lg-3.mb-lg-1.mt-lg-1 Adicionalmente, se abordan indicadores financieros que facilitan la toma de decisiones, como el valor presente neto, la tasa interna de retorno y el período de recuperación de la inversión, los cuales permiten comparar alternativas tecnológicas y distintos escenarios de operación. También se incorporan análisis de sensibilidad y escenarios prospectivos para evaluar el impacto de variaciones en variables críticas, tales como la demanda energética, los costos de mantenimiento o las tasas de interés. De esta manera, se promueve una planificación financiera rigurosa que contribuya a la sostenibilidad económica del proyecto y a la continuidad del servicio energético en contextos rurales y en las zonas no interconectadas.
         p.mb-0 En la prefactibilidad, debemos diferenciar claramente estos dos tipos de gastos: 
       .col-lg-3.d-none.d-lg-block
-        img(src='@/assets/curso/tema2/5.png', alt='')
+        img(src='@/assets/curso/tema2/5.png')
 
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")
       .col-lg-12
@@ -106,7 +106,7 @@
                     .lista-ol--cuadro__vineta
                       span c
                     p.mb-0 #[b Administración:] costos de recaudo y gestión comunitaria.
-                img(src='@/assets/curso/tema2/6.png', alt='')
+                img(src='@/assets/curso/tema2/6.png')
 
 
     separador
@@ -116,7 +116,7 @@
     p.mb-5(data-aos="fade-left") Existen diferentes "bolsas" de dinero dependiendo de la ubicación del proyecto y del tipo de beneficiario. No es lo mismo financiar una escuela rural que una planta de transformación de café.
     
     .titulo.mb-5(data-aos="fade-right")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Fondos públicos específicos (administrados por el Ministerio de Minas)
 
     p.mb-5(data-aos="fade-left") Son las fuentes principales para proyectos de electrificación en Colombia:
@@ -128,24 +128,24 @@
             .col-lg-6.mb-lg-0.mb-4
               p.mb-0 Es el fondo estrella para proyectos en áreas donde no llega la red eléctrica nacional. Prioriza soluciones con fuentes renovables.
             .col-lg-6.col-md-10.col-10
-              img(src='@/assets/curso/tema2/7.png', alt='')
+              img(src='@/assets/curso/tema2/7.png')
       .row.justify-content-center.align-items.p-0(titulo="FAER (Fondo de Apoyo Financiero para la Energización de las Zonas Rurales Interconectadas)")
         .col-lg-11.mb-0
           .row.justify-content-center.align-items-start.mb-0
             .col-lg-6.mb-lg-0.mb-4
               p.mb-0 Se usa cuando la vivienda o comunidad está en el Sistema Interconectado Nacional (SIN) pero es de difícil acceso y requiere una extensión de red o una solución aislada por costos.
             .col-lg-6.col-md-10.col-10
-              img(src='@/assets/curso/tema2/8.png', alt='')
+              img(src='@/assets/curso/tema2/8.png')
       .row.justify-content-center.align-items.p-0(titulo="PRONE (Programa de Normalización de Redes Eléctricas)")
         .col-lg-11.mb-0
           .row.justify-content-center.align-items-start.mb-0
             .col-lg-6.mb-lg-0.mb-4
               p.mb-0 Enfocado en mejorar la infraestructura existente en barrios subnormales o zonas rurales con redes en mal estado.
             .col-lg-6.col-md-10.col-10
-              img(src='@/assets/curso/tema2/9.png', alt='')
+              img(src='@/assets/curso/tema2/9.png')
     
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Sistema General de Regalías (SGR)
 
     p.mb-5(data-aos="fade-right") Es una de las fuentes más potentes actualmente. Los departamentos y municipios reciben dinero por la explotación de recursos minero-energéticos y deben invertir una parte en ciencia, tecnología e innovación o en proyectos de infraestructura.
@@ -153,7 +153,7 @@
     .bg9.p-lg-5.p-4.mb-5(data-aos="fade-left")
       .row.justify-content-center.align-items-center.mb-0
         .col-lg-1.col-md-2.col-4
-          img.mb-4.mb-md-0.mb-lg-0(alt="" src="@/assets/curso/tema2/10.svg")
+          img.mb-4.mb-md-0.mb-lg-0(src="@/assets/curso/tema2/10.svg")
         .col-lg-11.col-md-9.col-11
           p.mb-0 #[b Oportunidad:] estos proyectos se tramitan a través de la plataforma MGA (Metodología General Ajustada) para ser presentados ante los OCAD (Órganos Colegiados de Administración y Decisión).
 
@@ -171,7 +171,7 @@
                     i.fas.fa-circle-check
                     p.mb-0 #[b Ventaja:] el flujo de recursos es más rápido que en los fondos públicos tradicionales porque la empresa privada gestiona la ejecución.
               .col-lg-5.col-md-8.col-10
-                img.mb-0(alt="" src="@/assets/curso/tema2/11.png")
+                img.mb-0(src="@/assets/curso/tema2/11.png")
             .row.justify-content-center.align-items-center.p-0.p-lg-4
               .col-lg-6.mb-lg-0.mb-4
                 h4.mb-4 Cooperación internacional y créditos verdes
@@ -184,7 +184,7 @@
                     i.fas.fa-circle-check
                     p.mb-0 #[b Fondos de clima:] como el #[em Green Climate Fund], que busca reducir emisiones de CO#[sub 2] a través de la sustitución de plantas diésel por solar en zonas rurales. 
               .col-lg-5.col-md-8.col-10
-                img.mb-0(alt="" src="@/assets/curso/tema2/12.png")
+                img.mb-0(src="@/assets/curso/tema2/12.png")
             .row.justify-content-center.align-items-center.p-0.p-lg-4
               .col-lg-6.mb-lg-0.mb-4
                 h4.mb-4 Incentivos financieros de la banca comercial
@@ -194,7 +194,7 @@
                     i.fas.fa-circle-check
                     p.mb-0 Ofrecen tasas preferenciales y periodos de gracia para la compra de sistemas solares fotovoltaicos, apalancados en los beneficios de la Ley 1715 que vimos en el anterior numeral.
               .col-lg-5.col-md-8.col-10
-                img.mb-0(alt="" src="@/assets/curso/tema2/13.png")
+                img.mb-0(src="@/assets/curso/tema2/13.png")
 
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
       .col-lg-12
@@ -234,7 +234,7 @@
     p.mb-5(data-aos="fade-right") Un estructurador de proyectos debe demostrar que la solución es eficiente y que los recursos asignados tendrán el mayor impacto posible. Para ello, utilizamos tres tipos de indicadores:
 
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Indicadores financieros tradicionales
 
     p.mb-5(data-aos="fade-right") Se usan cuando el proyecto busca ser un negocio o cuando se evalúa desde un inversionista privado:
@@ -273,7 +273,7 @@
         p.mb-4 En cuanto a las variables, están correctamente definidas, pero hay un pequeño detalle técnico:
         .row.mb-0
           .col-lg-6.pe-lg-0.mb-lg-0.mb-4
-            img.img-t.d-none.d-lg-block(src='@/assets/curso/tema2/16.svg', alt='')
+            img.img-t.d-none.d-lg-block(src='@/assets/curso/tema2/16.svg')
           .col-lg-6.ps-lg-0.pe-lg-0.mb-0
             .bg811.p-4.p-lg-5
               p.mb-0
@@ -288,16 +288,16 @@
                   i.fas.fa-circle-check
                   p.mb-0 Conviene aclarar que todos los valores se descuentan a valor presente.
       .col-lg-3.d-none.d-lg-block.mb-0
-        img(src='@/assets/curso/tema2/17.png', alt='')
+        img(src='@/assets/curso/tema2/17.png')
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-5.d-none.d-lg-block
-        img(src='@/assets/curso/tema2/18.png', alt='')
+        img(src='@/assets/curso/tema2/18.png')
       .col-lg-7
         .bg10.p-4
           .row.justify-content-center.mb-0.mt-lg-1.mb-lg-0
             .col-lg-2
-              img.img-t.img-a.mb-md-4.mb-lg-0.mb-4(src='@/assets/curso/tema2/19.svg', alt='')
+              img.img-t.img-a.mb-md-4.mb-lg-0.mb-4(src='@/assets/curso/tema2/19.svg')
             .col-lg-10
               p.mb-4 Donde:
               ul.lista-ul.mb-0
@@ -321,7 +321,7 @@
                   p.mb-0 #[b n:] vida útil del sistema (años).
 
     .titulo.mb-5(data-aos="fade-right")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Indicadores de sostenibilidad social y ambiental
 
     p.mb-5(data-aos="fade-left") Como muchos proyectos rurales son subsidiados, el éxito no se mide solo en pesos, sino en beneficios:
@@ -331,7 +331,7 @@
         .h-100.bg11.p-4
           .row.justify-content-center.align-items-center.mb-0
             .col-4.mb-4.my-4
-              img(src='@/assets/curso/tema2/20.svg' alt='AvatarTop')
+              img(src='@/assets/curso/tema2/20.svg')
           .bg12.p-1.mb-4
             h4.text-center.mb-0.ps-3.pe-3 Costo por beneficiario
           p.mb-2 Inversión total / Número de familias atendidas. Esto ayuda a priorizar proyectos donde el impacto sea masivo.
@@ -339,7 +339,7 @@
         .h-100.bg11.p-4
           .row.justify-content-center.align-items-center.mb-0
             .col-4.mb-4.my-4
-              img(src='@/assets/curso/tema2/21.svg' alt='AvatarTop')
+              img(src='@/assets/curso/tema2/21.svg')
           .bg12.p-1.mb-4
             h4.text-center.mb-0.ps-3.pe-3 Relación beneficio y costo social
           p.mb-2 Mide el valor de las externalidades positivas (mejora en salud por no usar leña, horas extra de estudio para niños, refrigeración de vacunas).
@@ -347,13 +347,13 @@
         .h-100.bg11.p-4
           .row.justify-content-center.align-items-center.mb-0
             .col-4.mb-4.my-4
-              img(src='@/assets/curso/tema2/22.svg' alt='AvatarTop')
+              img(src='@/assets/curso/tema2/22.svg')
           .bg12.p-1.mb-4
             h4.text-center.mb-0.ps-3.pe-3 Toneladas de CO#[sub 2] evitadas
           p.mb-2 Cálculo del impacto ambiental al desplazar fuentes fósiles (plantas diésel o lámparas de querosén).
 
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Análisis de sensibilidad
 
     .row.justify-content-center.align-items-end.mb-5(data-aos="fade-right")
@@ -362,7 +362,7 @@
         .bg6.p-4
           .row.justify-content-center.align-items.mb-0.mt-lg-4.mb-lg-4
             .col-lg-2.d-none.d-lg-block
-              img.img-t.img-a(src='@/assets/curso/tema2/23.svg' alt='AvatarTop')
+              img.img-t.img-a(src='@/assets/curso/tema2/23.svg')
             .col-lg-10
               ul.lista-ul.mb-0
                 li.d-flex.mb-0
@@ -375,13 +375,13 @@
                   i.fas.fa-circle-check
                   p.mb-0 ¿Qué pasa si el recaudo de la tarifa de mantenimiento es solo del 70 %?
       .col-lg-4.d-none.d-lg-block
-        img(src='@/assets/curso/tema2/24.png' alt='AvatarTop')
+        img(src='@/assets/curso/tema2/24.png')
 
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
       .col-lg-12
         .bloque-texto-g.color-acento-contenido.p-3.p-lg-5.p-md-4
           .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/tema2/25.png')})`}", alt='Imagen decorativa.'
+            :style="{'background-image': `url(${require('@/assets/curso/tema2/25.png')})`}"
           )
           .bloque-texto-g__texto.p-md-4.p-4
             h4 Ejemplo para el aprendiz

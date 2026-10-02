@@ -11,7 +11,7 @@
       .col-lg-12
         .bloque-texto-g.color-secundario.p-3.p-lg-5.p-md-4
           .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/tema1/1.png')})`}", alt='Imagen decorativa.'
+            :style="{'background-image': `url(${require('@/assets/curso/tema1/1.png')})`}"
           )
           .bloque-texto-g__texto.p-md-4.p-4
             p.mb-0 En la planificación de proyectos energéticos, resulta fundamental incorporar criterios de eficiencia económica en la selección de la tecnología, evaluando no solo el costo inicial de los equipos, sino además su vida útil, rendimiento, disponibilidad de repuestos y los costos asociados a su disposición final. El análisis del costo nivelado de la energía se presenta como una herramienta clave para estimar el costo real de generación por kilovatio hora a lo largo del tiempo, lo que facilita la comparación entre distintas alternativas energéticas. Este enfoque permite identificar opciones que, aunque requieran una mayor inversión inicial, ofrezcan mejores resultados financieros y operativos durante el horizonte de evaluación del proyecto.
@@ -20,10 +20,10 @@
 
     .bg3.mb-5
       .row.justify-content-center.align-items-center
-        .col-lg-5.col-md-8.col-12.mb-lg-0.mb-0(data-aos="fade-right"): img(src='@/assets/curso/tema1/2.png', alt='')
+        .col-lg-5.col-md-8.col-12.mb-lg-0.mb-0(data-aos="fade-right"): img(src='@/assets/curso/tema1/2.png')
         .col-lg-7(data-aos="fade-left")
           .p-4
-            img.mb-3.img-t.d-none.d-lg-block(src='@/assets/curso/tema1/3.svg', alt='')
+            img.mb-3.img-t.d-none.d-lg-block(src='@/assets/curso/tema1/3.svg')
             p.mb-0(data-aos="fade-left") Colombia ha evolucionado su marco normativo para priorizar las energías limpias, consolidando un enfoque orientado a la diversificación de la matriz energética, la reducción de emisiones y el fomento de la inversión en fuentes renovables no convencionales. En este contexto, los dos pilares fundamentales que el formulador debe conocer son, en primer lugar, el conjunto de incentivos económicos y tributarios que buscan mejorar la viabilidad financiera de los proyectos mediante beneficios fiscales y facilidades para la importación de tecnologías; y, en segundo lugar, el fortalecimiento institucional y regulatorio que promueve la integración eficiente de estas fuentes al sistema energético nacional. Ambos ejes permiten crear un entorno más competitivo y estable, facilitando la estructuración técnica, económica y financiera de iniciativas sostenibles en el largo plazo.
 
     .row.justify-content-center.align-items-stretch.mb-lg-5.mb-0(data-aos="fade-left")
@@ -40,13 +40,13 @@
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-4.d-none.d-lg-block
-        img(src='@/assets/curso/tema1/5.png', alt='')
+        img(src='@/assets/curso/tema1/5.png')
       .col-lg-8
         p.mb-4 El nuevo modelo de comunidades energéticas, establecido mediante el Decreto 2236 de 2023, constituye un eje fundamental en la estructuración actual de los proyectos de energización rural, dado que redefine los esquemas tradicionales de acceso, gestión y aprovechamiento de la energía.
         .bg6.p-4
           .row.justify-content
             .col-lg-2.col-md-2
-              img.img-t.img-a.mb-lg-0.mb-4(src='@/assets/curso/tema1/6.svg', alt='')
+              img.img-t.img-a.mb-lg-0.mb-4(src='@/assets/curso/tema1/6.svg')
             .col-lg-10.col-md-10
               ol.lista-ol--cuadro.mb-0
                 li.d-flex.mb-4
@@ -59,7 +59,7 @@
                   p.mb-0 #[b Impacto social:] permite que las comunidades trasciendan el rol de simples beneficiarias y se consoliden como propietarias y gestoras de su propia infraestructura energética, fortaleciendo la autonomía, la sostenibilidad y la apropiación social de los proyectos.
 
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Licenciamiento ambiental y permisos menores
 
     p.mb-5(data-aos="fade-right") No todos los proyectos rurales requieren una licencia ambiental completa (que es costosa y lenta), pero el aprendiz debe saber distinguir:
@@ -68,7 +68,7 @@
       .col-lg-6.mb-lg-0.mb-4
         .tarjeta-avatar-b.mb-0.h-100
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema1/7.svg' alt='')
+            img(src='@/assets/curso/tema1/7.svg')
           .tarjeta.color-pr
             .p-4
               h4 Proyectos de pequeña escala
@@ -76,7 +76,7 @@
       .col-lg-6
         .tarjeta-avatar-b.mb-0.h-100
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema1/8.svg' alt='')          
+            img(src='@/assets/curso/tema1/8.svg')          
           .tarjeta.color-pr
             .p-4
               h4 Permisos de aprovechamiento
@@ -129,7 +129,7 @@
               .row.align-items-center
                 .col-auto
                   figure
-                    img.d-none.d-lg-block(src="@/assets/curso/tema1/9.svg", alt="alt")
+                    img.d-none.d-lg-block(src="@/assets/curso/tema1/9.svg")
                 .col
                   h4.mb-2 RETIE (Reglamento Técnico de Instalaciones Eléctricas)
                   p.mb-0 Es de cumplimiento obligatorio en Colombia. Todo prediseño debe asegurar que los materiales y la instalación minimicen riesgos para las personas y el entorno.
@@ -137,7 +137,7 @@
               .row.align-items-center
                 .col-auto
                   figure
-                    img.d-none.d-lg-block(src="@/assets/curso/tema1/10.svg", alt="alt")
+                    img.d-none.d-lg-block(src="@/assets/curso/tema1/10.svg")
                 .col
                   h4.mb-2 RETILAP (Reglamento Técnico de Iluminación y Alumbrado Público)
                   p.mb-0 Crucial si el proyecto incluye iluminación de espacios comunes o escuelas rurales.
@@ -145,45 +145,45 @@
               .row.align-items-center
                 .col-auto
                   figure
-                    img.d-none.d-lg-block(src="@/assets/curso/tema1/11.svg", alt="alt")
+                    img.d-none.d-lg-block(src="@/assets/curso/tema1/11.svg")
                 .col
                   h4.mb-2 Normas NTC / IEC
                   p.mb-0 Referencias internacionales para la calidad de paneles solares, inversores y baterías (ejemplo: NTC 4564 para sistemas fotovoltaicos).
           .col-lg-5.sob1.d-none.d-lg-block
-            img.img-t(src="@/assets/curso/tema1/12.svg", alt="alt")
+            img.img-t(src="@/assets/curso/tema1/12.svg")
     
     p.mb-lg-5.mb-4(data-aos="fade-right") No siempre la energía solar es la mejor opción. El aprendiz debe evaluar la fuente según el recurso disponible:
 
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
       .col-lg-3.d-none.d-lg-block
-        img.img-t(src="@/assets/curso/tema1/13.png", alt="alt")
+        img.img-t(src="@/assets/curso/tema1/13.png")
       .col-lg-9
         SlyderF(columnas="col-md-6 col-xl-4")
           .tarjeta.tarjeta--slyder.b2.p-2.p-lg-3.p-md-3
             .row.justify-content-center.align-items-center.mb-4.mt-lg-3
               .col-12
-                img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema1/14.svg' alt='AvatarTop')
+                img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema1/14.svg')
             .bg7.p-1.mb-4
               h4.text-center.text-white.mb-0.ps-2.pe-2 Solar fotovoltaica
             p.mb-2 Ideal para la mayoría de regiones en Colombia (especialmente caribe, orinoquía y zonas andinas). Ventaja: Bajo mantenimiento y escalabilidad.
           .tarjeta.tarjeta--slyder.b2.p-2.p-lg-3.p-md-3
             .row.justify-content-center.align-items-center.mb-4.mt-lg-3
               .col-12
-                img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema1/15.svg' alt='AvatarTop')
+                img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema1/15.svg')
             .bg7.p-1.mb-4
               h4.text-center.text-white.mb-0.ps-2.pe-2 Eólica de pequeña escala
             p.mb-2 Recomendada para zonas con velocidades de viento promedio superiores a 5 m/s (ejemplo: la Guajira). Requiere estudios de viento más complejos.
           .tarjeta.tarjeta--slyder.b2.p-2.p-lg-3.p-md-3
             .row.justify-content-center.align-items-center.mb-4.mt-lg-3
               .col-12
-                img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema1/16.svg' alt='AvatarTop')
+                img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema1/16.svg')
             .bg7.p-1.mb-4
               h4.text-center.text-white.mb-0.ps-2.pe-2 Micro Centrales Hidráulicas (PCH) 
             p.mb-2 Excelente para zonas con ríos caudalosos y pendientes (Andes y Pacífico). Proporcionan energía constante (24/7).
           .tarjeta.tarjeta--slyder.b2.p-2.p-lg-3.p-md-3
             .row.justify-content-center.align-items-center.mb-4.mt-lg-3
               .col-12
-                img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema1/17.svg' alt='AvatarTop')
+                img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema1/17.svg')
             .bg7.p-1.mb-4
               h4.text-center.text-white.mb-0.ps-2.pe-2 Sistemas híbridos
             p.mb-2 Combinación de fuentes (ejemplo: solar y generador diésel de respaldo) para garantizar la confiabilidad en centros de salud o escuelas.

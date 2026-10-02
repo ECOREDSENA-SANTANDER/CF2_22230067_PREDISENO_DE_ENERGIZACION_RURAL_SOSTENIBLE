@@ -88,7 +88,7 @@ export default {
           },
           {
             numero: '3.2',
-            titulo: 'Esquemas de recaudo y fondo de reposición:',
+            titulo: 'Esquemas de recaudo y fondo de reposición',
             hash: 't_3_2',
           },
         ],
@@ -224,15 +224,15 @@ export default {
     },
     {
       referencia:
-        'Ministerio de Minas y Energía. (s.f.). Funcionamiento del Sector.',
+        'Ministerio de Minas y Energía. (s. f.). Funcionamiento del Sector.',
     },
     {
       referencia:
-        'Semana. (2024, Julio 16). En pleno siglo XXI, 8,4 millones de colombianos se alumbran con vela: resultados del Índice de Pobreza Energética. Revista Semana.',
+        'Semana. (2024, julio 16). En pleno siglo XXI, 8,4 millones de colombianos se alumbran con vela: resultados del Índice de Pobreza Energética. Revista Semana.',
     },
     {
       referencia:
-        'Redacción El País. (2023, 20 de Octubre). De la protesta a la propuesta: campesinos crean la primera escuela de energías limpias de Colombia. El País.',
+        'Redacción El País. (2023, 20 de octubre). De la protesta a la propuesta: campesinos crean la primera escuela de energías limpias de Colombia. El País.',
     },
   ],
   creditos: [

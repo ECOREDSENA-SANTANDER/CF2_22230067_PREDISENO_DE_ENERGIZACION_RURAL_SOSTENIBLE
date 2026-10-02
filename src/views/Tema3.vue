@@ -13,37 +13,37 @@
         .bg6.p-4
           .row.mb-0
             .col-lg-2.ps-lg-0
-              img.img-t.img-a.d-none.d-lg-block(src='@/assets/curso/tema3/2.svg', alt='')
+              img.img-t.img-a.d-none.d-lg-block(src='@/assets/curso/tema3/2.svg')
             .col-lg-10.ps-lg-0
               p.mb-0 En este contexto, se destaca que la dimensión social implica reconocer las particularidades culturales, económicas y organizativas de cada territorio, promoviendo procesos de diálogo intercultural y construcción colectiva de acuerdos. La identificación de actores clave, el análisis de las dinámicas de poder y la comprensión de las necesidades energéticas reales permiten diseñar soluciones pertinentes, inclusivas y equitativas. De esta manera, se impulsa la participación de grupos históricamente marginados, como mujeres, jóvenes y comunidades étnicas, asegurando que los beneficios del proyecto se distribuyan de forma justa y contribuyan efectivamente al desarrollo local.
       .col-lg-4.d-none.d-lg-block
-        img(src='@/assets/curso/tema3/1.png', alt='')
+        img(src='@/assets/curso/tema3/1.png')
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-4.d-none.d-lg-block
-        img(src='@/assets/curso/tema3/3.png', alt='')
+        img(src='@/assets/curso/tema3/3.png')
       .col-lg-8
         .row.justify-content-center.mb-0
           .col-lg-2
-            img.img-t.img-a.my-2.d-none.d-lg-block(src='@/assets/curso/tema3/4.svg', alt='')
+            img.img-t.img-a.my-2.d-none.d-lg-block(src='@/assets/curso/tema3/4.svg')
           .col-lg-10.ps-lg-0
             p.mb-0 Adicionalmente, se enfatiza la necesidad de fortalecer las capacidades locales mediante procesos de formación técnica y organizativa que promuevan la autonomía en la gestión del sistema energético. La implementación de mecanismos transparentes de administración y rendición de cuentas favorece la confianza comunitaria y la sostenibilidad en el largo plazo. En consecuencia, la articulación entre instituciones públicas, organizaciones sociales y actores privados se configura como un elemento estratégico para consolidar modelos de gobernanza participativa que respalden la continuidad, el mantenimiento y la eventual expansión de las iniciativas energéticas rurales.
     
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
-        img(src='@/assets/curso/tema3/5.png', alt='Texto que describa la imagen')
+        img(src='@/assets/curso/tema3/5.png')
         .row.justify-content-center.g-0
           .col-lg-12
             .tarjeta.bg16.p-4.rounded-0.h-100
               .tarjeta.bg-white.p-4.p-lg-5.h-100
                 TarjetaAudio.color-acento-botones.mb-0(
-                texto="Podcast: Gestión social y apropiación comunitaria."
+                texto="<i>Pódcast:</i> Gestión social y apropiación comunitaria."
                 :audio="require('@/assets/actividad/audio/Podcast_CF2_22230067_Prediseno_de_energizacion_rural_sostenible.mp3')"
             )
                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
 
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Estrategias de socialización: cómo involucrar a la comunidad desde la prefactibilidad
 
     p.mb-5(data-aos="fade-right") La gestión social debe comenzar desde la etapa de prefactibilidad, no cuando los equipos ya están siendo transportados hacia el sitio del proyecto.
@@ -67,7 +67,7 @@
                       i.fas.fa-circle-check
                       p.mb-0 #[b Acuerdos de beneficio:] definir cómo el proyecto respeta sus usos y costumbres (ejemplo: no ubicar paneles en sitios sagrados).
                 .col-lg-6.col-md-10.col-10
-                  img(src='@/assets/curso/tema3/7.png', alt='')
+                  img(src='@/assets/curso/tema3/7.png')
           .row.justify-content-center.align-items.p-0(titulo="Mapeo de actores y análisis de poder (<em>Stakeholder Mapping</em>)")
             .col-lg-11.mb-0
               .row.justify-content-center.align-items-start.mb-4
@@ -84,7 +84,7 @@
                       i.fas.fa-circle-check
                       p.mb-0 #[b Grupos de interés:] jóvenes (quienes suelen aprender más rápido la técnica) y mujeres (quienes suelen liderar el ahorro y la economía del hogar).
                 .col-lg-6.col-md-10.col-10
-                  img(src='@/assets/curso/tema3/8.png', alt='')
+                  img(src='@/assets/curso/tema3/8.png')
               .titulo-sexto.mb-4
                 h5 Tabla 4.
                 | Herramienta para el aprendiz: matriz de compromisos comunitarios
@@ -131,7 +131,7 @@
                       i.fas.fa-circle-check
                       p.mb-0 #[b Conformación del comité energético:] elegir a un grupo de personas que vigilarán la prefactibilidad y servirán de enlace con los ingenieros.
                 .col-lg-6.col-md-10.col-10
-                  img(src='@/assets/curso/tema3/9.png', alt='')
+                  img(src='@/assets/curso/tema3/9.png')
           .row.justify-content-center.align-items.p-0(titulo="Comunicación asertiva y manejo de expectativas")
             .col-lg-11.mb-0
               .row.justify-content-center.align-items-start.mb-4
@@ -148,7 +148,7 @@
                       i.fas.fa-circle-check
                       p.mb-0 #[b Corresponsabilidad:] la energía es un derecho, pero su sostenibilidad es un deber compartido.
                 .col-lg-6.col-md-10.col-10
-                  img(src='@/assets/curso/tema3/10.png', alt='')
+                  img(src='@/assets/curso/tema3/10.png')
               .titulo-sexto.mb-4
                 h5 Tabla 5.
                 | Herramienta práctica: el "semáforo social" de prefactibilidad
@@ -202,7 +202,7 @@
                     i.fas.fa-circle-check
                     p.mb-0 #[b Riesgos:] si hay conflictos internos en la vereda, el servicio se ve afectado. Requiere mucho apoyo en capacitación contable.
               .col-lg-5.col-md-8.col-10
-                img.mb-0(alt="" src="@/assets/curso/tema3/11.png")
+                img.mb-0(src="@/assets/curso/tema3/11.png")
             .row.justify-content-center.align-items-center.p-0.p-lg-4
               .col-lg-6.mb-lg-0.mb-4
                 h4.mb-4 Modelo de operador externo (Empresa de Servicios Públicos - ESP)
@@ -221,7 +221,7 @@
                     i.fas.fa-circle-check
                     p.mb-0 #[b Riesgos:] la tarifa suele ser más alta y la comunidad puede sentir el proyecto como algo “ajeno”.
               .col-lg-5.col-md-8.col-10
-                img.mb-0(alt="" src="@/assets/curso/tema3/11.png")
+                img.mb-0(src="@/assets/curso/tema3/11.png")
             .row.justify-content-center.align-items-center.p-0.p-lg-4
               .col-lg-6.mb-lg-0.mb-4
                 h4.mb-4 El modelo de comunidades energéticas (Decreto 2236 de 2023)
@@ -234,10 +234,10 @@
                     i.fas.fa-circle-check
                     p.mb-0 #[b Sostenibilidad:] el excedente de energía que no se consume en las casas se puede vender o usar en un proyecto productivo comunitario (ejemplo: una despulpadora de fruta), y esas ganancias financian el mantenimiento del sistema.
               .col-lg-5.col-md-8.col-10
-                img.mb-0(alt="" src="@/assets/curso/tema3/11.png")
+                img.mb-0(src="@/assets/curso/tema3/11.png")
 
     .titulo.mb-5(data-aos="fade-right")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Matriz de selección del modelo de gestión
 
     p.mb-5(data-aos="fade-left") Para ayudar al aprendiz a decidir en su documento de prefactibilidad, proponemos esta matriz:
@@ -278,7 +278,7 @@
                 td Variable (según ingresos extra).
 
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 El operador local: la pieza clave
 
     p.mb-5(data-aos="fade-right") Independientemente del modelo, el diseño de prefactibilidad debe contemplar la figura del operador local.
@@ -286,7 +286,7 @@
     .bg9.p-lg-5.p-4.mb-0(data-aos="fade-left")
       .row.justify-content-center.align-items-center.mb-0
         .col-lg-1.col-md-2.col-4
-          img.mb-4.mb-lg-0.mb-md-0(alt="" src="@/assets/curso/tema3/14.svg")
+          img.mb-4.mb-lg-0.mb-md-0(src="@/assets/curso/tema3/14.svg")
         .col-lg-11.col-md-9.col-11
           ul.lista-ul.mb-0
             li.d-flex.mb-0
@@ -302,7 +302,7 @@
 
     separador
     #t_3_2.titulo-segundo.mb-5
-      h2 3.2 Esquemas de recaudo y fondo de reposición:
+      h2 3.2 Esquemas de recaudo y fondo de reposición
     
     p.mb-4(data-aos="fade-right") El diseño de prefactibilidad debe ser honesto: la energía "gratis" no existe, aunque el sol no pasa factura, los equipos sí se desgastan. El aprendiz debe aprender a estructurar el flujo de dinero comunitario.
     p.mb-4(data-aos="fade-left") Existen varias formas de recolectar el dinero para el mantenimiento (#[em OPEX]), y la elección depende de la cultura local:
@@ -358,14 +358,14 @@
           .tarjeta-numerada__numero
             .h2 4
           p.text-center.mx-3  
-            b Contribución en especie o trabajo:
+            b Contribución en especie o trabajo
           ul.lista-ul.mb-0
             li.d-flex.mb-0
               i.fas.fa-circle-check
               p.mb-0 En comunidades muy pobres, una parte del pago puede ser mano de obra (limpieza de la zona, vigilancia) o productos locales, aunque esto es difícil de convertir en dinero para repuestos técnicos.
   
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 El fondo de reposición 
 
     .row.justify-content-center.align-items-end.mb-5(data-aos="fade-right")
@@ -373,7 +373,7 @@
         p.mb-4 Este es el concepto más importante que se debe transmitir a la comunidad. El dinero recaudado no debe gastarse todo en el técnico local; debe dividirse en dos "bolsillos":
         .row.mb-0
           .col-lg-6.pe-lg-0.col-md-7.col-10.mb-lg-0.mb-4
-            img.img-t.d-none.d-lg-block(src='@/assets/curso/tema3/19.png', alt='')
+            img.img-t.d-none.d-lg-block(src='@/assets/curso/tema3/19.png')
           .col-lg-6.ps-lg-0.pe-lg-0.mb-0
             .bg833.p-4
               p.mb-0.mx-lg-2 
@@ -385,10 +385,10 @@
                   i.fas.fa-circle-check
                   p.mb-0 #[b Bolsillo de reposición (ahorro a largo plazo):] dinero "sagrado" que se guarda en una cuenta bancaria o caja fuerte para comprar las baterías nuevas en el año 5 o 7, y el inversor en el año 10.
       .col-lg-3.d-none.d-lg-block
-        img(src='@/assets/curso/tema3/15.png', alt='')
+        img(src='@/assets/curso/tema3/15.png')
 
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Estrategias contra la morosidad
 
     p.mb-4(data-aos="fade-right") El proyecto de prefactibilidad debe prever qué pasará si alguien no paga:
@@ -408,10 +408,10 @@
 
     .row.mb-5(data-aos="fade-right")         
       .col-lg-12
-        img(src='@/assets/curso/tema3/16.svg' alt='AvatarTop')
+        img(src='@/assets/curso/tema3/16.svg')
 
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Transparencia y rendición de cuentas
 
     p.mb-4(data-aos="fade-right") Para que la gente pague, debe confiar. El esquema debe incluir:

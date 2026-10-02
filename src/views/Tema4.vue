@@ -9,10 +9,10 @@
 
     .bg3.mb-5
       .row.justify-content-center.align-items-center
-        .col-lg-5.col-md-8.col-12.mb-lg-0.mb-0(data-aos="fade-right"): img(src='@/assets/curso/tema4/1.png', alt='')
+        .col-lg-5.col-md-8.col-12.mb-lg-0.mb-0(data-aos="fade-right"): img(src='@/assets/curso/tema4/1.png')
         .col-lg-7(data-aos="fade-left")
           .p-4
-            img.mb-3.img-t.d-none.d-lg-block(src='@/assets/curso/tema4/2.svg', alt='')
+            img.mb-3.img-t.d-none.d-lg-block(src='@/assets/curso/tema4/2.svg')
             p.mb-0(data-aos="fade-left") La viabilidad ambiental y la gestión de riesgos constituyen componentes esenciales en la formulación de proyectos energéticos rurales, pues permiten anticipar, prevenir y minimizar impactos negativos sobre el entorno natural, al tiempo que garantizan la resiliencia de la infraestructura frente a eventos adversos. En esta sección se desarrollan los principios de evaluación ambiental aplicables a soluciones basadas en Fuentes No Convencionales de Energía Renovable (FNCER), así como la identificación de riesgos climáticos, técnicos, operativos y de seguridad que pueden incidir en el desempeño y la continuidad del sistema. Además, se incorporan herramientas como la caracterización ambiental, la gestión adecuada de residuos peligrosos y la elaboración de matrices de riesgo, las cuales facilitan la toma de decisiones preventivas y la implementación de medidas de mitigación y control.
     
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
@@ -23,17 +23,17 @@
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-5.d-none.d-lg-block
-        img(src='@/assets/curso/tema4/4.png', alt='')
+        img(src='@/assets/curso/tema4/4.png')
       .col-lg-7
         .bg1.p-4
           .row.justify-content-center.mb-0.mt-lg-1.mb-lg-1
             .col-lg-2
-              img.img-t.img-a.mb-lg-0.mb-4(src='@/assets/curso/tema4/5.svg', alt='')
+              img.img-t.img-a.mb-lg-0.mb-4(src='@/assets/curso/tema4/5.svg')
             .col-lg-10.ps-lg-0
               p.mb-0 Por su parte, la gestión de riesgos se concibe como un proceso continuo que comprende la identificación, el análisis, la valoración y el seguimiento de amenazas potenciales a lo largo del ciclo de vida del proyecto. Ello implica establecer protocolos de mantenimiento preventivo, planes de contingencia y mecanismos de capacitación dirigidos a los actores locales, con el propósito de asegurar una respuesta oportuna ante fallas técnicas, fenómenos climáticos extremos o incidentes de seguridad. La adopción de estándares técnicos y normativos vigentes, junto con sistemas de monitoreo y evaluación periódica, contribuye a garantizar la confiabilidad, eficiencia y sostenibilidad de las soluciones energéticas implementadas en contextos rurales.
 
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Gestión de impactos ambientales 
 
     p.mb-5(data-aos="fade-right") Aunque las FNCER (Fuentes No Convencionales de Energía Renovable) son "limpias", su implementación genera retos ambientales específicos:
@@ -54,7 +54,7 @@
         img(src='@/assets/curso/tema4/6.png')
 
     .titulo.mb-5(data-aos="fade-right")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Adaptación al cambio climático y riesgos naturales
 
     p.mb-5(data-aos="fade-left") El diseño de prefactibilidad debe considerar la resiliencia de la infraestructura ante eventos extremos, muy comunes en Colombia:
@@ -77,7 +77,7 @@
           p.mb-0 En zonas con alta actividad de rayos (como el Catatumbo o el Magdalena Medio), es obligatorio el diseño de sistemas de puesta a tierra (SPT) y pararrayos para proteger la inversión.
 
     .titulo.mb-5(data-aos="fade-left")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Gestión de riesgos técnicos y operativos
     
     p.mb-5(data-aos="fade-right") Factores que pueden degradar el sistema prematuramente:
@@ -86,7 +86,7 @@
       .col-lg-6.mb-lg-0.mb-4
         .tarjeta-avatar-b.mb-0.h-100
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema4/17.svg' alt='')
+            img(src='@/assets/curso/tema4/17.svg')
           .tarjeta.color-pr
             .p-4
               h4 Corrosión
@@ -94,14 +94,14 @@
       .col-lg-6
         .tarjeta-avatar-b.mb-0.h-100
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/tema4/18.svg' alt='')          
+            img(src='@/assets/curso/tema4/18.svg')          
           .tarjeta.color-pr
             .p-4
               h4 Sombreado dinámico
               p Crecimiento de la vegetación circundante que puede tapar los paneles con el tiempo. El plan de mantenimiento debe incluir la poda controlada.
 
     .titulo.mb-5(data-aos="fade-right")
-      img(:src="require('@/assets/curso/tema1/sub.svg')" alt='Imagen decorativa')
+      img(:src="require('@/assets/curso/tema1/sub.svg')")
       h3.mb-0 Riesgos sociales y de seguridad
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
@@ -110,7 +110,7 @@
         .bg6.p-4
           .row.justify-content-center.align-items-center.mb-0.mt-lg-3.mb-lg-3
             .col-lg-2
-              img.img-t.img-a.mb-md-4.mb-lg-0.mb-4(src='@/assets/curso/tema2/23.svg' alt='AvatarTop')
+              img.img-t.img-a.mb-md-4.mb-lg-0.mb-4(src='@/assets/curso/tema2/23.svg')
             .col-lg-10
               ul.lista-ul.mb-0
                 li.d-flex.mb-3
@@ -120,7 +120,7 @@
                   i.fas.fa-circle-check
                   p.mb-0 #[b Orden público:] evaluación de la facilidad de acceso para técnicos externos en caso de fallas graves y la seguridad de los activos en zonas de conflicto.
       .col-lg-4.d-none.d-lg-block
-        img(src='@/assets/curso/tema4/19.png' alt='AvatarTop')
+        img(src='@/assets/curso/tema4/19.png')
 
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")
       .col-lg-12
