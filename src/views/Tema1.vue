@@ -122,7 +122,7 @@
     p.mb-5(data-aos="fade-right") No basta con que el proyecto sea legal; debe ser seguro y de alta calidad técnica para evitar fallos prematuros en entornos rurales difíciles.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
-      .col-lg-11.offset-lg-0
+      .col-lg-12.offset-lg-0
         .row.justify-content-center.align-items-end
           .col-lg-8.ps-lg-0
             .crd.crd--avatarHorizontal.crd--first.py-4
@@ -132,7 +132,7 @@
                     img.d-none.d-lg-block(src="@/assets/curso/tema1/9.svg")
                 .col
                   h4.mb-2 RETIE (Reglamento Técnico de Instalaciones Eléctricas)
-                  p.mb-0 Es de cumplimiento obligatorio en Colombia. Todo prediseño debe asegurar que los materiales y la instalación minimicen riesgos para las personas y el entorno.
+                  p.mb-0 Es de cumplimiento obligatorio en Colombia. Todo prediseño eléctrico debe cumplir con los requisitos establecidos en el RETIE, actualizado mediante la Resolución 40284 del 23 de junio de 2026, garantizando que los materiales y las instalaciones minimicen los riesgos eléctricos para las personas, los animales, el medio ambiente y los bienes.
             .crd.crd--avatarHorizontal.py-4
               .row.align-items-center
                 .col-auto
@@ -140,7 +140,7 @@
                     img.d-none.d-lg-block(src="@/assets/curso/tema1/10.svg")
                 .col
                   h4.mb-2 RETILAP (Reglamento Técnico de Iluminación y Alumbrado Público)
-                  p.mb-0 Crucial si el proyecto incluye iluminación de espacios comunes o escuelas rurales.
+                  p.mb-0 Es de cumplimiento obligatorio en Colombia. Todo prediseño de iluminación debe cumplir con los requisitos establecidos en el RETILAP, actualizado mediante la Resolución 40286 del 23 de junio de 2026, garantizando niveles adecuados de iluminación, eficiencia energética, seguridad y confort visual. Su aplicación es fundamental en proyectos que incluyan iluminación interior, exterior, espacios comunes, instituciones educativas y escuelas rurales, así como sistemas de alumbrado público, contribuyendo a la protección de las personas y del medio ambiente.
             .crd.crd--avatarHorizontal.crd--last.py-4
               .row.align-items-center
                 .col-auto
@@ -165,7 +165,7 @@
                 img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema1/14.svg')
             .bg7.p-1.mb-4
               h4.text-center.text-white.mb-0.ps-2.pe-2 Solar fotovoltaica
-            p.mb-2 Ideal para la mayoría de regiones en Colombia (especialmente caribe, orinoquía y zonas andinas). Ventaja: Bajo mantenimiento y escalabilidad.
+            p.mb-2 Ideal para la mayoría de regiones en Colombia (especialmente Caribe, Orinoquía y zonas andinas). Ventaja: Bajo mantenimiento y escalabilidad.
           .tarjeta.tarjeta--slyder.b2.p-2.p-lg-3.p-md-3
             .row.justify-content-center.align-items-center.mb-4.mt-lg-3
               .col-12
